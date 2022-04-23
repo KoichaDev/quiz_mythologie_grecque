@@ -1,0 +1,26 @@
+{
+	"name": "vanilla-javascript",
+	"version": "1.0.0",
+	"description": "Hello !",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"source": "src/index.js",
+	"main": "dist/main.js",
+	"scripts": {
+		"dev": "parcel",
+		"build": "parcel build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KoichaDev/quiz_mythologie_grecque.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KoichaDev/quiz_mythologie_grecque/issues"
+	},
+	"homepage": "https://github.com/KoichaDev/quiz_mythologie_grecque#readme",
+	"devDependencies": {
+		"parcel": "latest"
+	}
+}
