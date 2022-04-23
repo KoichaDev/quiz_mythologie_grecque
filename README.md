@@ -2,7 +2,4 @@
 
 Hello !
 
-Je souhaite créer un jeu qui me permet de choisir la bonne réponse entre deux choix.
-J'ai décidé de créer une classe Question qui contient l'essentiel du code. Les instances apporter les données nécessaires aux lignes de code dans la Classe. Mais je me demande comment passer d'une question à une autre sans changer moi-même la question à lancer ? Est-ce que ma méthode est la bonne.
-Je tiens à signaler que ca fait à peine un mois que j'ai commencé à étudier sérieusement JavsScript, il me reste encore beaucoup de choses à comprendre :)
-Merci d'avance pour votre aide !!
+I want to create a game that allows me to choose the correct answer between two choices. I decided to create a Question class that contains most of the code. The instances bring the necessary data to the lines of code in the Class. But I wonder how to move from one question to another without changing the question myself? Is my method correct? I want to point out that it's barely a month since I started to study JavsScript seriously, I still have a lot to understand :) Thank you in advance for your help !!
