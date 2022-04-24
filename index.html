@@ -16,42 +16,16 @@
 	</head>
 
 	<body>
-		<div class="ensemble">
+		<main>
 			<header>
 				<h1>Quiz</h1>
-				<h2>ancient Greece</h2>
+				<h2 id="total-question"></h2>
 			</header>
-			<section>
-				<h3>Start playing by clicking the button!</h3>
-				<form action="#" method="">
-					<!-- First choice -->
-					<div class="image-radio">
-						<fieldset>
-							<legend>First choice</legend>
-							<label for="choix1">
-								<img id="image1" src="" alt="" />
-							</label>
-							<input type="radio" name="choix" id="choix1" value="Test" />
-						</fieldset>
-						<!-- Second choice -->
-						<fieldset>
-							<legend>Second choice</legend>
-							<label for="choix2">
-								<img id="image2" src="" alt="" />
-							</label>
-							<input type="radio" name="choix" id="choix2" value="" />
-						</fieldset>
-					</div>
-					<!-- Bouton submit -->
-					<div class="style-button-check">
-						<button id="check" type="submit">Confirm your choice</button>
-					</div>
-				</form>
-				<!-- Button play -->
-				<button id="play">Play</button>
-			</section>
-			<!-- Button next -->
-			<button id="next">Next</button>
-		</div>
+
+			<button id="start-game" type="button">play</button>
+			<div class="[ quiz-container ]" id="quiz-container">
+				<h2 id="quiz-title" class="hidden"></h2>
+			</div>
+		</main>
 	</body>
 </html>

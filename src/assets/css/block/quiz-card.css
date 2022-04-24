@@ -1,0 +1,20 @@
+.quiz-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.quiz-container > .quiz-container__form > .quiz-container__image {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.quiz-container > .quiz-container__form > .quiz-container__image img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+.quiz-container > .quiz-container__form > .quiz-container__answers {
+	display: flex;
+	justify-content: space-around;
+}
